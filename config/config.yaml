@@ -1,0 +1,12 @@
+defaults:
+  - experiment: dystil
+  - dataset: cifar10
+  - _self_
+
+checkpoint_dir: ./checkpoint
+data_dir: /buckets/datasets
+
+wandb:
+  project: ISTA
+  entity:  ayghri-cu
+  mode: online

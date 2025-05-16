@@ -1,0 +1,12 @@
+batch_size: 128
+num_workers: 3
+lr: 0.1
+weight_decay: 5e-4
+momentum: 0.9
+method: "dystil"
+epochs: 200
+t_max: 200
+model: "WideResNet-22"
+sparsity: 0.1
+beta: 0.01
+alpha: 0.1

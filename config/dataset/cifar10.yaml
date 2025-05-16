@@ -1,0 +1,4 @@
+name: cifar10
+num_classes: 10
+num_workers: 4
+data_dir: /buckets/datasets/
